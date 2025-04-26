@@ -1,8 +1,3 @@
-"""
-License: MIT
-Organization: UNIR
-"""
-
 import os
 import sys
 
@@ -43,7 +38,7 @@ if __name__ == "__main__":
         print(f"El fichero {filename} no existe. Se usará una lista por defecto.")
         word_list = ["ravenclaw", "gryffindor", "slytherin", "hufflepuff"]
 
-    sorted_words = sort_list(word_list, ascending=ascending)
+    sorted_words =  (word_list, ascending=ascending)
     print("Palabras ordenadas:")
     for word in sorted_words:
         print(word)
